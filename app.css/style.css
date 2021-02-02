@@ -2,6 +2,10 @@ html, body {
  margin: 0;
  padding: 0;
  }
+ header {
+ 	padding: 10px;
+ 	background-image: url(image/header.jpg);
+ }
  h1{
  	color:#4AB1F8 ;
 
