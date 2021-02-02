@@ -40,3 +40,12 @@ nav ul li a
  color:#fff;
  background: #E71EAB;
  border-radius: 5%;
+}
+ /*fin css nav*/
+
+.slider img {
+	background-size: cover;
+	width: 100%;
+	padding-top: 20px;
+
+}
