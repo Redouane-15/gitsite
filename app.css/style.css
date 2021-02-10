@@ -5,10 +5,10 @@ html, body {
 
  }
  header {
- 	padding: 30px;
- 	background-image: url(image/header.jpg);
- 	position:relative;
-	max-width: 100%;
+ 	padding: 30px 50px;
+ 	background-color: #fff;
+ 	position:fixed;
+	width: 100%;
 	box-sizing: border-box;
 	box-shadow: 0 2px 5px rgba(0,0,0,.2);
 	transition:0.5;
@@ -48,15 +48,13 @@ nav ul li a
 .slider img {
 	background-size: cover;
 	width: 100%;
-	padding-top: 20px;
+
 
 }
 #slider-texte{
 	position: absolute;
 	display: block;
 	text-align: center;
-
-	
 }
 
 .entretien{
