@@ -126,3 +126,13 @@ nav ul li a
 	 font-family:Arial; 
 
 }
+.membres {
+	background: black;
+	width: 100%;
+	height: 500px;
+}
+.galerie {
+	background: gray;
+	width: 100%;
+	height: 700px;
+}
