@@ -51,6 +51,14 @@ nav ul li a
 	padding-top: 20px;
 
 }
+#slider-texte{
+	position: absolute;
+	display: block;
+	text-align: center;
+
+	
+}
+
 .entretien{
 	background: gray;
 	width: 100%;
