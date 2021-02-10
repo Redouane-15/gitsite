@@ -51,15 +51,31 @@ nav ul li a
 }
 #slider-texte h2{
 	position: absolute;
+<<<<<<< HEAD
 	
 }
 
 #slider-texte h3{
 	position: absolute;
 	
+=======
+	top: 50%;
+	left:50%;
+	text-align: center;
+	color: #fff;
 }
 
-.entretien{
+#slider-texte h1{
+	color: #fff;
+}
+.reunion{
+	padding: 20px;
+	margin: ;
+
+>>>>>>> 27a5052e33641998c66208dfd0a67d509a68448a
+}
+
+.actu{
 	background: gray;
 	width: 100%;
 	height: 600px;
