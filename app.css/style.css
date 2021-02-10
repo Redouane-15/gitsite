@@ -56,6 +56,12 @@ nav ul li a
 	width: 100%;
 	height: 600px;
 }
-.contact {
+.contact{
+	display: flex;
+	justify-content: center;
+	width: 100%;
 	
+}
+.contact h2 {
+	color:#4AB1F8;
 }
