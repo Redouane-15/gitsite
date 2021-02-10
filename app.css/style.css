@@ -49,16 +49,18 @@ nav ul li a
 	background-size: cover;
 	width: 100%;
 }
-#slider-texte h2{
+
+#slider-texte{
 	position: absolute;
-<<<<<<< HEAD
-	
+	top: 50%;
+	width: 400px;
+	left:50%;
+	text-align: center;
+	color: #fff;
 }
 
-#slider-texte h3{
+#slider-texte h2{
 	position: absolute;
-	
-=======
 	top: 50%;
 	left:50%;
 	text-align: center;
@@ -70,18 +72,19 @@ nav ul li a
 }
 .reunion{
 	padding: 20px;
-	margin: ;
+	margin: 20px;
 	text-align: center;	
-
->>>>>>> 27a5052e33641998c66208dfd0a67d509a68448a
 }
 
 .actu{
+	display: flex;
 	background: gray;
-	width: 100%;
+	width: 50%;
 	height: 600px;
+	padding: 40px;
+	margin: 20px;
+	justify-content: center;
 }
-
 
 .contact h2
 {
