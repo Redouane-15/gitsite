@@ -23,7 +23,7 @@ html, body {
  }
  nav ul
 {
-	margin: 0;
+	margin: -10px;
 	padding: 0;
 	display: flex;
 
@@ -40,7 +40,7 @@ nav ul li a
  padding: 10px 20px;
  text-decoration: none;
  color:#fff;
- background: #E71EAB;
+ background: #4AB1F8;
  border-radius: 5%;
 }
  /*fin css nav*/
@@ -48,13 +48,15 @@ nav ul li a
 .slider img {
 	background-size: cover;
 	width: 100%;
-
-
 }
-#slider-texte{
+#slider-texte h2{
 	position: absolute;
-	display: block;
-	text-align: center;
+	
+}
+
+#slider-texte h3{
+	position: absolute;
+	
 }
 
 .entretien{
@@ -83,6 +85,8 @@ nav ul li a
 {
 	display: flex;
 	flex-direction: column;
+	padding-left: 50px;
+	padding-right:50px;
 }
 .formulaire form h3,
 .contactInfo h3
