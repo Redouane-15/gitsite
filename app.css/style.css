@@ -53,8 +53,19 @@ nav ul li a
 }
 #slider-texte{
 	position: absolute;
-	display: block;
+	top: 50%;
+	left:50%;
 	text-align: center;
+	color: #fff;
+}
+
+#slider-texte h1{
+	color: #fff;
+}
+.reunion{
+	padding: 20px;
+	margin: ;
+
 }
 
 .actu{
@@ -62,12 +73,77 @@ nav ul li a
 	width: 100%;
 	height: 600px;
 }
-.contact{
+
+
+.contact h2
+{
+	color:#4AB1F8;
+	text-align: center;
+}
+.contact p
+{
+	color:#4AB1F8;
+	font-weight: bold;
+	text-align: center;
+}
+.formulaire
+{
+	min-width: 60%;
+}
+.formulaire form
+{
 	display: flex;
-	justify-content: center;
-	width: 100%;
+	flex-direction: column;
+}
+.formulaire form h3,
+.contactInfo h3
+{
+	color:#fff;
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.formulaire form input,
+.formulaire form textarea
+{
+	margin-bottom: 20px;
+	padding:15px;
+	font-size: 16px;
+	background: transparent;
+	border: none;
+	outline: none;
+	background: #fff;
+	color: #fff;
+	resize: none;
+	border:#7C7C7C solid 2px;
+	 font-family:Arial; 
 	
 }
-.contact h2 {
-	color:#4AB1F8;
+.formulaire form textarea
+{
+	min-height: 200px;
+ font-family:Arial; 
+}
+.formulaire form input::placeholder
+.formulaire form textarea::placeholder
+{
+	color:#999;
+}
+.formulaire form input[type="submit"]
+{
+	max-width: 100px;
+	background: #4AB1F8;
+	cursor: pointer;
+	 font-family:Arial; 
+
+}
+.membres {
+	background: black;
+	width: 100%;
+	height: 500px;
+}
+.galerie {
+	background: gray;
+	width: 100%;
+	height: 700px;
 }
