@@ -96,12 +96,13 @@ nav ul li a:hover{
 }
 
 .actu{
+	float:left;
 	display: block;
 	background: #b5f68b;
 	width: 50%;
 	height: 300px;
 	padding: 40px;
-	margin: 20px;
+	margin-left:20px;
 	justify-content: center;
 
 }
@@ -112,8 +113,20 @@ nav ul li a:hover{
 	position: absolute;
 	width: 40%;
 }
+
+.information {
+	display: block;
+	background: #b5f68b;
+	width: 33%;
+	height: 300px;
+	padding: 40px;
+	margin: 20px;
+	margin-left:60%;
+	justify-content: center;
+}
+
 .membres {
-	background: black;
+	background: lightgrey;
 	width: 100%;
 	height: 500px;
 }
@@ -128,7 +141,8 @@ nav ul li a:hover{
 }
 #image img {
 	margin: 0 auto;
-	width: 30%;
+	width: 49%;
+	height: 
 }
 .contact h2
 {
