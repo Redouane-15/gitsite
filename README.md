@@ -8,6 +8,6 @@
 * Adam Floriane
 
 ### Ce site est destiné aux membres de l'association.  
-Il regroupe différent type d'information comme les infos pratique, l'actualité, les réunion, une galerie d'image
+Il regroupe différents types d'informations comme les infos pratiques, l'actualité, les réunions, une galerie d'images
 et un formulaire de contact. 
 

@@ -106,11 +106,11 @@ nav ul li a:hover{
 
 }
 .actu div div{
-	margin-left: 35%;
+	margin-left: 50%;
 }
 .actu div img{
 	position: absolute;
-	width: 50%;
+	width: 40%;
 }
 .membres {
 	background: black;
@@ -124,10 +124,11 @@ nav ul li a:hover{
 }
 #image {
 	margin: 0 auto;
-	width: 800px;
+	width: 100%;
 }
 #image img {
-	width: 20%;
+	margin: 0 auto;
+	width: 30%;
 }
 .contact h2
 {
