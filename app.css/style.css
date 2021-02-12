@@ -91,17 +91,26 @@ nav ul li a:hover{
 .reunion{
 	padding: 20px;
 	margin: 20px;
-	text-align: center;	
+	text-align: center;
+	background: #9FEA6E;
 }
 
 .actu{
 	display: block;
-	background: gray;
+	background: #b5f68b;
 	width: 50%;
-	height: 600px;
+	height: 300px;
 	padding: 40px;
 	margin: 20px;
 	justify-content: center;
+
+}
+.actu div div{
+	margin-left: 35%;
+}
+.actu div img{
+	position: absolute;
+	width: 50%;
 }
 .membres {
 	background: black;
