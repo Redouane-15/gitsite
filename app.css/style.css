@@ -47,7 +47,7 @@ nav ul li a
 }
 nav ul li a:hover{
 	transform: scale(1.3);
-	transition: 1s;
+	transition: 0.5s;
 	background: #fff;
 	color:#b5f68b;
 	border-radius: 30%;
@@ -169,7 +169,7 @@ nav ul li a:hover{
 	border: none;
 	outline: none;
 	background: #fff;
-	color: #fff;
+	color:black ;
 	resize: none;
 	border:#7C7C7C solid 2px;
 	 font-family:Arial; 
@@ -192,4 +192,31 @@ nav ul li a:hover{
 	cursor: pointer;
 	 font-family:Arial; 
 
+}
+/*Contour*/
+span
+{
+	transition: 0.5;
+}
+.contour span
+{
+position:absolute;
+top:0
+left:0;
+width: 100%;
+height: 2px;
+background: linear-gradient(to right, transparent,#b5f68b);
+animation:animatea 10s linear infinite ;
+animation-delay: 0s;
+}
+@keyframes animatea 
+{
+	0%{
+		transform:translateX(-100%);
+
+
+	}
+	100%{
+		transform:translateX(0%);
+	}
 }
