@@ -42,9 +42,19 @@ nav ul li a
  color:#fff;
  background: #b5f68b;
  border-radius: 5%;
+ transition: 1s;
 }
+nav ul li a:hover{
+	transform: scale(1.3);
+	transition: 1s;
+	background: #fff;
+	color:#b5f68b;
+	border-radius: 30%;
  /*fin css nav*/
-
+}
+#accueil {
+	transition: 1s;
+}
 .slider img {
 	background-size: cover;
 	width: 100%;
@@ -105,12 +115,12 @@ nav ul li a
 }
 .contact h2
 {
-	color:#4AB1F8;
+	color:#b5f68b;
 	text-align: center;
 }
 .contact p
 {
-	color:#4AB1F8;
+	color:#b5f68b;
 	font-weight: bold;
 	text-align: center;
 }
@@ -162,7 +172,7 @@ nav ul li a
 .formulaire form input[type="submit"]
 {
 	max-width: 100px;
-	background: #4AB1F8;
+	background: #b5f68b;
 	cursor: pointer;
 	 font-family:Arial; 
 
