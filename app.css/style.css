@@ -5,6 +5,7 @@ html, body {
 
  }
  header {
+ 	z-index: 2;
  	padding: 30px 50px;
  	background-color: #fff;
  	position:fixed;
@@ -50,12 +51,18 @@ nav ul li a
 	width: 100%;
 }
 
+.slider{
+	width: 100%;
+	margin: 0 auto;
+}
+
 #slider-texte{
+	z-index: 1;
+	font-size: 30pt;
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	background-color: #fff 50%;
-	width: 400px;
-	left:50%;
+	width: 100%;
 	text-align: center;
 	color: #fff;
 }
